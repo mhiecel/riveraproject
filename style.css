@@ -1,0 +1,94 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+    color: bisque;
+}
+
+header{
+    background-color: aquamarine;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#home{
+    background: local;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home h1{
+    font-size: 50px;
+    color: aquamarine;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+#about{
+    background-color: aquamarine;
+    text-align: center;
+}
+
+#about h1{
+    font-size: 36px;
+    color: aquamarine;
+}
+
+#about p{
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+#gallery{
+    background-color: aquamarine;
+}
+
+#gallery h1{
+    text-align: center;
+    font-size: 36px;
+    color: aquamarine;
+    margin-bottom: 20px;
+}
+
+#gallery.gallery-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+#gallery.gallery-grid img{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+#contact{
+    background-color: aquamarine;
+    text-align: center;
+}
+
+#contact h2{
+    font-size: 36px;
+    color: aquamarine;
+}
+
+#contact form{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+footer{
+    background-color: aquamarine;
+    color: aquamarine;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
